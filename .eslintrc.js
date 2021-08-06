@@ -1,5 +1,5 @@
 module.exports = {
-    "extends": [
+    extends: [
         "react-app",
         "react-app/jest"
     ]
