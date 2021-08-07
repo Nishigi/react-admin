@@ -1,10 +1,16 @@
 import React from 'react';
+
+import { Provider } from "react-redux";
+import store from "./store";
+
+import StudyRedux from "./views/study";
+
 function App() {
-  return (
+  return <Provider store={store}>
     <div className="app">
-      <h1>Learn React</h1>
+      <StudyRedux />
     </div>
-  );
+  </Provider>
 }
 
 export default App;
