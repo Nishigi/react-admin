@@ -1,8 +1,8 @@
 created at 2021-08-05
 
-redux
+## redux
 
-store
-state
-action
-reducer
+- store
+- state
+- action是对象必须要有type属性
+- reducer
