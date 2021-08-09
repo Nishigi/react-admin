@@ -1,10 +1,11 @@
-import { combineReducers, createStore } from 'redux'
+import { createStore } from 'redux'
 
-import test from "./reducers/test";
+// import test from "./reducers/test";  
+import { reducer } from "./reducers";
 
-const rootReducer = combineReducers({ test })
+// const rootReducer = combineReducers({ test })
 
-export default createStore(rootReducer)
+export default createStore(reducer)
 
 // const initState = {
 //     msg: 'hello redux',

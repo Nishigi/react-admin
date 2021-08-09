@@ -6,9 +6,7 @@ import App from './App';
 import "./assets/init.css";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App />,
   document.getElementById('root')
 );
 
