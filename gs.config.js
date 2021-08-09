@@ -15,8 +15,8 @@ module.exports = {
         port: 9000,
         proxy: {
             '/api': {
-                target: '',
-                changeOrigin: ''
+                target: 'https://cnodejs.org',
+                changeOrigin: true
             }
         }
     }
